@@ -55,8 +55,8 @@ void initializeSums(vector<vector<int>>& sums) {
 }
 
 int main() {
-    vector<vector<int>> board(SIZE, vector<int>(SIZE, 0));
-    vector<vector<int>> sums(3, vector<int>(3, 0));
+    vector<vector<int>> board(SIZE, vector<int>(SIZE, 0)); // двумерный вектор (где он хранит матрицу 9 на 9 заполненую 0)
+    vector<vector<int>> sums(3, vector<int>(3, 0)); // sums хранит суммы
 
     initializeBoard(board);
     initializeSums(sums);
